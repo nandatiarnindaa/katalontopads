@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Dashboard - Negative - Create New Group With Group Name More Than 70 Chars</name>
+   <name>Dashboard - Negative - Create New Group - Group Name More Than 70 Chars</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a273374c-f058-445b-836d-a6249ab749cf</testCaseGuid>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Dashboard - Create Headline</name>
+   <name>Dashboard - Negative - Create New Group - Group Name Empty</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7cdafcc3-8eac-4a4d-b57f-8d5e4f4b43cd</testCaseGuid>
+   <testCaseGuid>4fa5f45a-d071-42e2-956b-d91114c1f4c2</testCaseGuid>
 </TestCaseEntity>

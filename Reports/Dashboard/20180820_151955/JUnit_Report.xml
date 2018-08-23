@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Dashboard" time="59" tests="4" failures="0" errors="0">
+   <testsuite name="Dashboard" tests="4" failures="0" errors="0" time="59" timestamp="2018-08-20 15:19:58" hostname="Nakama - 201060-" id="Test Suites/Dashboard">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nakama\\git\\katalontopads\\Reports\\Dashboard\\20180820_151955"/>
+         <property name="logFiles" value="C:\\Users\\Nakama\\git\\katalontopads\\Reports\\Dashboard\\20180820_151955\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Nakama - 201060-"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.253.114"/>
+         <property name="sessionId" value="97a046d552872c468e1fcb48c52b43b6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Dashboard - Negative - Create New Group with Group Name Empty" classname="Test Cases/Dashboard - Negative - Create New Group with Group Name Empty" status="PASSED">
+         <system-out><![CDATA[2018-08-20 15:19:58 - [TEST_CASE][PASSED] - Test Cases/Dashboard - Negative - Create New Group with Group Name Empty: Test Cases/Dashboard - Negative - Create New Group with Group Name Empty
+
+2018-08-20 15:19:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-20 15:20:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-20 15:20:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.tokopedia.com/authorize?client_id=1001&p=https%3A%2F%2Fwww.tokopedia.com&redirect_uri=https%3A%2F%2Fwww.tokopedia.com%2Fappauth%2Fcode&response_type=code&state=eyJyZWYiOiJodHRwczovL3d3dy50b2tvcGVkaWEuY29tIiwidXVpZCI6ImIzNzFkMzMxLWU4YWQtNDA2Yy05YzMwLTU3ZGY3NmY4ZWIxNyJ9' successfully
+
+2018-08-20 15:20:05 - [MESSAGE][PASSED] - Navigate to 'https://accounts.tokopedia.com/authorize?client_id=1001&p=https%3A%2F%2Fwww.tokopedia.com&redirect_uri=https%3A%2F%2Fwww.tokopedia.com%2Fappauth%2Fcode&response_type=code&state=eyJyZWYiOiJodHRwczovL3d3dy50b2tvcGVkaWEuY29tIiwidXVpZCI6ImIzNzFkMzMxLWU4YWQtNDA2Yy05YzMwLTU3ZGY3NmY4ZWIxNyJ9' successfully
+
+2018-08-20 15:20:05 - [TEST_STEP][PASSED] - setText: Text 'ndatiarninda@gmail.com' is set on object 'Object Repository/Page_Masuk  Tokopedia/input_email'
+
+2018-08-20 15:20:05 - [MESSAGE][PASSED] - Text 'ndatiarninda@gmail.com' is set on object 'Object Repository/Page_Masuk  Tokopedia/input_email'
+
+2018-08-20 15:20:05 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Masuk  Tokopedia/input_password'
+
+2018-08-20 15:20:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Masuk  Tokopedia/input_password'
+
+2018-08-20 15:20:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Masuk  Tokopedia/button_Masuk' is clicked on
+
+2018-08-20 15:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Masuk  Tokopedia/button_Masuk' is clicked on
+
+2018-08-20 15:20:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ta.tokopedia.com/v2/manage' successfully
+
+2018-08-20 15:20:09 - [MESSAGE][PASSED] - Navigate to 'https://ta.tokopedia.com/v2/manage' successfully
+
+2018-08-20 15:20:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Daftar Iklan  Tokopedia/a_Tambah Iklan' is clicked on
+
+2018-08-20 15:20:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daftar Iklan  Tokopedia/a_Tambah Iklan' is clicked on
+
+2018-08-20 15:20:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Daftar Iklan  Tokopedia/Click Add Product' is clicked on
+
+2018-08-20 15:20:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daftar Iklan  Tokopedia/Click Add Product' is clicked on
+
+2018-08-20 15:20:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Choose 1st Product' is clicked on
+
+2018-08-20 15:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose 1st Product' is clicked on
+
+2018-08-20 15:20:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/Page_Masuk  Tokopedia/button_Simpan' is clicked on
+
+2018-08-20 15:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_Masuk  Tokopedia/button_Simpan' is clicked on
+
+2018-08-20 15:20:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/error_group_name_not_present' are matched.
+
+2018-08-20 15:20:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/error_group_name_not_present' are matched.
+
+2018-08-20 15:20:11 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-20 15:20:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard - Negative - Create New Group With Group Name More Than 70 Chars" classname="Test Cases/Dashboard - Negative - Create New Group With Group Name More Than 70 Chars" status="PASSED">
+         <system-out><![CDATA[2018-08-20 15:20:12 - [TEST_CASE][PASSED] - Test Cases/Dashboard - Negative - Create New Group With Group Name More Than 70 Chars: Test Cases/Dashboard - Negative - Create New Group With Group Name More Than 70 Chars
+
+2018-08-20 15:20:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-20 15:20:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-20 15:20:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.tokopedia.com/authorize?client_id=1001&p=https%3A%2F%2Fwww.tokopedia.com&redirect_uri=https%3A%2F%2Fwww.tokopedia.com%2Fappauth%2Fcode&response_type=code&state=eyJyZWYiOiJodHRwczovL3d3dy50b2tvcGVkaWEuY29tIiwidXVpZCI6ImIzNzFkMzMxLWU4YWQtNDA2Yy05YzMwLTU3ZGY3NmY4ZWIxNyJ9' successfully
+
+2018-08-20 15:20:17 - [MESSAGE][PASSED] - Navigate to 'https://accounts.tokopedia.com/authorize?client_id=1001&p=https%3A%2F%2Fwww.tokopedia.com&redirect_uri=https%3A%2F%2Fwww.tokopedia.com%2Fappauth%2Fcode&response_type=code&state=eyJyZWYiOiJodHRwczovL3d3dy50b2tvcGVkaWEuY29tIiwidXVpZCI6ImIzNzFkMzMxLWU4YWQtNDA2Yy05YzMwLTU3ZGY3NmY4ZWIxNyJ9' successfully
+
+2018-08-20 15:20:17 - [TEST_STEP][PASSED] - setText: Text 'ndatiarninda@gmail.com' is set on object 'Object Repository/Page_Masuk  Tokopedia/input_email'
+
+2018-08-20 15:20:17 - [MESSAGE][PASSED] - Text 'ndatiarninda@gmail.com' is set on object 'Object Repository/Page_Masuk  Tokopedia/input_email'
+
+2018-08-20 15:20:17 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Masuk  Tokopedia/input_password'
+
+2018-08-20 15:20:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Masuk  Tokopedia/input_password'
+
+2018-08-20 15:20:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Masuk  Tokopedia/button_Masuk' is clicked on
+
+2018-08-20 15:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Masuk  Tokopedia/button_Masuk' is clicked on
+
+2018-08-20 15:20:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ta.tokopedia.com/v2/manage' successfully
+
+2018-08-20 15:20:21 - [MESSAGE][PASSED] - Navigate to 'https://ta.tokopedia.com/v2/manage' successfully
+
+2018-08-20 15:20:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Daftar Iklan  Tokopedia/a_Tambah Iklan' is clicked on
+
+2018-08-20 15:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daftar Iklan  Tokopedia/a_Tambah Iklan' is clicked on
+
+2018-08-20 15:20:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Daftar Iklan  Tokopedia/Click Add Product' is clicked on
+
+2018-08-20 15:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daftar Iklan  Tokopedia/Click Add Product' is clicked on
+
+2018-08-20 15:20:22 - [TEST_STEP][PASSED] - setText: Text 'grup01302010992456878690208046120803244312866768646784004819656474606706909055238000' is set on object 'Object Repository/Page_Daftar Iklan  Tokopedia/input_group-name__input'
+
+2018-08-20 15:20:23 - [MESSAGE][PASSED] - Text 'grup01302010992456878690208046120803244312866768646784004819656474606706909055238000' is set on object 'Object Repository/Page_Daftar Iklan  Tokopedia/input_group-name__input'
+
+2018-08-20 15:20:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Choose 1st Product' is clicked on
+
+2018-08-20 15:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose 1st Product' is clicked on
+
+2018-08-20 15:20:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/Page_Masuk  Tokopedia/button_Simpan' is clicked on
+
+2018-08-20 15:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_Masuk  Tokopedia/button_Simpan' is clicked on
+
+2018-08-20 15:20:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/error_group_name_length' are matched.
+
+2018-08-20 15:20:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/error_group_name_length' are matched.
+
+2018-08-20 15:20:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-20 15:20:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard - Negative - Create New Group With Group Name with Invalid Chars" classname="Test Cases/Dashboard - Negative - Create New Group With Group Name with Invalid Chars" status="PASSED">
+         <system-out><![CDATA[2018-08-20 15:20:24 - [TEST_CASE][PASSED] - Test Cases/Dashboard - Negative - Create New Group With Group Name with Invalid Chars: Test Cases/Dashboard - Negative - Create New Group With Group Name with Invalid Chars
+
+2018-08-20 15:20:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-20 15:20:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-20 15:20:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.tokopedia.com/authorize?client_id=1001&p=https%3A%2F%2Fwww.tokopedia.com&redirect_uri=https%3A%2F%2Fwww.tokopedia.com%2Fappauth%2Fcode&response_type=code&state=eyJyZWYiOiJodHRwczovL3d3dy50b2tvcGVkaWEuY29tIiwidXVpZCI6ImIzNzFkMzMxLWU4YWQtNDA2Yy05YzMwLTU3ZGY3NmY4ZWIxNyJ9' successfully
+
+2018-08-20 15:20:30 - [MESSAGE][PASSED] - Navigate to 'https://accounts.tokopedia.com/authorize?client_id=1001&p=https%3A%2F%2Fwww.tokopedia.com&redirect_uri=https%3A%2F%2Fwww.tokopedia.com%2Fappauth%2Fcode&response_type=code&state=eyJyZWYiOiJodHRwczovL3d3dy50b2tvcGVkaWEuY29tIiwidXVpZCI6ImIzNzFkMzMxLWU4YWQtNDA2Yy05YzMwLTU3ZGY3NmY4ZWIxNyJ9' successfully
+
+2018-08-20 15:20:30 - [TEST_STEP][PASSED] - setText: Text 'ndatiarninda@gmail.com' is set on object 'Object Repository/Page_Masuk  Tokopedia/input_email'
+
+2018-08-20 15:20:30 - [MESSAGE][PASSED] - Text 'ndatiarninda@gmail.com' is set on object 'Object Repository/Page_Masuk  Tokopedia/input_email'
+
+2018-08-20 15:20:30 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Masuk  Tokopedia/input_password'
+
+2018-08-20 15:20:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Masuk  Tokopedia/input_password'
+
+2018-08-20 15:20:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Masuk  Tokopedia/button_Masuk' is clicked on
+
+2018-08-20 15:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Masuk  Tokopedia/button_Masuk' is clicked on
+
+2018-08-20 15:20:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ta.tokopedia.com/v2/manage' successfully
+
+2018-08-20 15:20:38 - [MESSAGE][PASSED] - Navigate to 'https://ta.tokopedia.com/v2/manage' successfully
+
+2018-08-20 15:20:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Daftar Iklan  Tokopedia/a_Tambah Iklan' is clicked on
+
+2018-08-20 15:20:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daftar Iklan  Tokopedia/a_Tambah Iklan' is clicked on
+
+2018-08-20 15:20:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Daftar Iklan  Tokopedia/Click Add Product' is clicked on
+
+2018-08-20 15:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daftar Iklan  Tokopedia/Click Add Product' is clicked on
+
+2018-08-20 15:20:39 - [TEST_STEP][PASSED] - setText: Text '<>?:' is set on object 'Object Repository/Page_Daftar Iklan  Tokopedia/input_group-name__input'
+
+2018-08-20 15:20:39 - [MESSAGE][PASSED] - Text '<>?:' is set on object 'Object Repository/Page_Daftar Iklan  Tokopedia/input_group-name__input'
+
+2018-08-20 15:20:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Choose 1st Product' is clicked on
+
+2018-08-20 15:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose 1st Product' is clicked on
+
+2018-08-20 15:20:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/Page_Masuk  Tokopedia/button_Simpan' is clicked on
+
+2018-08-20 15:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_Masuk  Tokopedia/button_Simpan' is clicked on
+
+2018-08-20 15:20:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/error_group_name_invalid_char' are matched.
+
+2018-08-20 15:20:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/error_group_name_invalid_char' are matched.
+
+2018-08-20 15:20:39 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-08-20 15:20:39 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard - Positive - Create New Group" classname="Test Cases/Dashboard - Positive - Create New Group" status="PASSED">
+         <system-out><![CDATA[2018-08-20 15:20:39 - [TEST_CASE][PASSED] - Test Cases/Dashboard - Positive - Create New Group: Test Cases/Dashboard - Positive - Create New Group
+
+2018-08-20 15:20:40 - [TEST_STEP][PASSED] - Statement - randGroup = "grup" + org.apache.commons.lang.RandomStringUtils.randomNumeric(5): null
+
+2018-08-20 15:20:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-20 15:20:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-20 15:20:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-20 15:20:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.tokopedia.com/authorize?client_id=1001&p=https%3A%2F%2Fwww.tokopedia.com&redirect_uri=https%3A%2F%2Fwww.tokopedia.com%2Fappauth%2Fcode&response_type=code&state=eyJyZWYiOiJodHRwczovL3d3dy50b2tvcGVkaWEuY29tIiwidXVpZCI6ImIzNzFkMzMxLWU4YWQtNDA2Yy05YzMwLTU3ZGY3NmY4ZWIxNyJ9' successfully
+
+2018-08-20 15:20:46 - [MESSAGE][PASSED] - Navigate to 'https://accounts.tokopedia.com/authorize?client_id=1001&p=https%3A%2F%2Fwww.tokopedia.com&redirect_uri=https%3A%2F%2Fwww.tokopedia.com%2Fappauth%2Fcode&response_type=code&state=eyJyZWYiOiJodHRwczovL3d3dy50b2tvcGVkaWEuY29tIiwidXVpZCI6ImIzNzFkMzMxLWU4YWQtNDA2Yy05YzMwLTU3ZGY3NmY4ZWIxNyJ9' successfully
+
+2018-08-20 15:20:46 - [TEST_STEP][PASSED] - setText: Text 'ndatiarninda@gmail.com' is set on object 'Object Repository/Page_Masuk  Tokopedia/input_email'
+
+2018-08-20 15:20:46 - [MESSAGE][PASSED] - Text 'ndatiarninda@gmail.com' is set on object 'Object Repository/Page_Masuk  Tokopedia/input_email'
+
+2018-08-20 15:20:46 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Masuk  Tokopedia/input_password'
+
+2018-08-20 15:20:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Masuk  Tokopedia/input_password'
+
+2018-08-20 15:20:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Masuk  Tokopedia/button_Masuk' is clicked on
+
+2018-08-20 15:20:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Masuk  Tokopedia/button_Masuk' is clicked on
+
+2018-08-20 15:20:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ta.tokopedia.com/v2/manage' successfully
+
+2018-08-20 15:20:54 - [MESSAGE][PASSED] - Navigate to 'https://ta.tokopedia.com/v2/manage' successfully
+
+2018-08-20 15:20:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Daftar Iklan  Tokopedia/a_Tambah Iklan' is clicked on
+
+2018-08-20 15:20:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daftar Iklan  Tokopedia/a_Tambah Iklan' is clicked on
+
+2018-08-20 15:20:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Daftar Iklan  Tokopedia/Click Add Product' is clicked on
+
+2018-08-20 15:20:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daftar Iklan  Tokopedia/Click Add Product' is clicked on
+
+2018-08-20 15:20:55 - [TEST_STEP][PASSED] - setText: Text 'grup55535' is set on object 'Object Repository/Page_Daftar Iklan  Tokopedia/input_group-name__input'
+
+2018-08-20 15:20:56 - [MESSAGE][PASSED] - Text 'grup55535' is set on object 'Object Repository/Page_Daftar Iklan  Tokopedia/input_group-name__input'
+
+2018-08-20 15:20:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Choose 1st Product' is clicked on
+
+2018-08-20 15:20:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Choose 1st Product' is clicked on
+
+2018-08-20 15:20:56 - [TEST_STEP][PASSED] - setText: Text '600' is set on object 'Object Repository/Page_Daftar Iklan  Tokopedia/Fill Price Bid'
+
+2018-08-20 15:20:56 - [MESSAGE][PASSED] - Text '600' is set on object 'Object Repository/Page_Daftar Iklan  Tokopedia/Fill Price Bid'
+
+2018-08-20 15:20:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/Page_Masuk  Tokopedia/button_Simpan' is clicked on
+
+2018-08-20 15:20:56 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_Masuk  Tokopedia/button_Simpan' is clicked on
+
+2018-08-20 15:20:56 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-20 15:20:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-20 15:20:56 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://ta.tokopedia.com/v2/manage/product/create?ref=v2&type=2&refpage=beranda%20semua%20promo'
+
+2018-08-20 15:20:56 - [MESSAGE][PASSED] - Current window's url is: 'https://ta.tokopedia.com/v2/manage/product/create?ref=v2&type=2&refpage=beranda%20semua%20promo'
+
+2018-08-20 15:20:56 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'alert(url)' successfully
+
+2018-08-20 15:20:56 - [MESSAGE][PASSED] - Execute JavaScript 'alert(url)' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-20 15:19:58 - [TEST_SUITE][PASSED] - Dashboard: Test Cases/Dashboard - Positive - Create New Group]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
